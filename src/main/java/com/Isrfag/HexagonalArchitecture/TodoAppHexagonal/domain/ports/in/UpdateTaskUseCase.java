@@ -1,0 +1,9 @@
+package com.Isrfag.HexagonalArchitecture.TodoAppHexagonal.domain.ports.in;
+
+import com.Isrfag.HexagonalArchitecture.TodoAppHexagonal.domain.models.Task;
+
+import java.util.Optional;
+
+public interface UpdateTaskUseCase {
+     Optional<Task> updateTask (Long id, Task updateTask);
+}
